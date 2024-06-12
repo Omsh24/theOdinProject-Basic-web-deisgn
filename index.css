@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.container1{
+    background-color: #1F2937;
+    color: white;
+    padding-bottom: 10%;
+}
+
+nav{
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+nav h1{
+    font-size: medium;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+nav a{
+
+    font-size: x-small;
+    text-decoration: none;
+    color: rgb(188, 188, 188);
+}
+
+.container2{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8%;
+}
+
+.boxL{
+    width:600px;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.boxL h1{
+    color: white;
+}
+
+.boxL p{
+    color: slategray;
+}
+
+.boxL .button{
+    background-color: rgb(74, 74, 255);
+    width: fit-content;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.container2 img{
+    height: 300px;
+    position: absolute;
+    transform: rotate(270deg);
+    right: 20%;
+    top: 70px;
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.container3 h1{
+    color: black;
+    font-size: xx-large;
+    text-align: center;
+    padding-bottom: 5%;
+    position: relative;
+}
+
+.box{
+    position: relative;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10%;
+}
+
+.box .card{
+    text-align: center;
+    width: 100px;
+    height: 200px;
+    font-size: x-small;
+    color: #3d3d3d;
+}
+
+.container3 img{
+    border: solid 2px rgb(90, 90, 255);
+    border-radius: 10px;
+}
+
+.container4{
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container4 h1{
+    font-size: large;
+    font-style: italic;
+}
+
+.container4 h2{
+    font-size: small;
+    text-align: end;
+}
+
+.container5{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    background-color: rgb(99, 172, 255);
+    display: flex;
+    margin-bottom: 10%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+
+.button2{
+    border: 2px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    background-color: rgb(99, 172, 255);
+    border-radius: 5px;
+}
